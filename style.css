@@ -1,0 +1,76 @@
+
+body {
+    background-color: #F7F5F0;
+    color: #111010;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #202C39;
+    color:white
+}
+
+/* Buttons */
+.btn-dark,
+.btn-primary {
+    background-color: #C49A52;
+    border-color: #C49A52;
+    color: white;
+}
+
+.btn-dark:hover,
+.btn-primary:hover {
+    background-color: #A77D38;
+    border-color: #A77D38;
+    color: white;
+}
+
+/* Outline Button */
+.btn-outline-secondary {
+    border-color: #C49A52;
+    color: #A77D38;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #C49A52;
+    color: white;
+}
+
+/* Cards */
+.card {
+    background-color: #FFFFFF;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(5px);
+}
+
+/* Card Images */
+
+.card-img-top {
+    height: 250px;
+    object-fit: contain;
+    padding: 15px;
+    width:100%;
+}
+.card-img-top1 {
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 0;
+    display: block;
+}
+
+/* Section Headings */
+h2 {
+    color: #202C39;
+}
+
+/* Footer */
+.custom-footer {
+    background-color: #202C39;
+    color: white;
+}
